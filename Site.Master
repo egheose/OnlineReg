@@ -50,7 +50,7 @@
                     <a class="navbar-brand" runat="server" href="~/">
                         <img src="Content/Images/lasrralogo.png" width="192" height="59" /></a>
                     
-                        <p class="navbar-text-header">Lagos State Residents Online Registration Website</p>
+                        <p class="navbar-text-header">Lagos State Residents Online Registration Portal</p>
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right">
