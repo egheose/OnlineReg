@@ -36,9 +36,10 @@ input[type="select"] {
         color:#ffffff;
         text-align:right;
         text-shadow:4px 4px 10px;
+        height:140px;
     }
     .jumbotron h1{
-        top: 51px;
+        top: 10px;
         position: relative;
         left: 55px;
     }
@@ -82,7 +83,18 @@ input[type="select"] {
     margin-top: -27px;
     margin-bottom: 10px;
 }
-
+.vertical-line-right{
+    border-right: 1px solid #5CB85C;
+    margin-right: 1px;
+    height: 360px;
+    border-radius: 12px;
+}
+.vertical-line-left{
+    border-left: 1px solid #5CB85C;
+    margin-left: 1px;
+    height: 360px;
+    border-radius: 12px;
+}
 @font-face{
   font-family:'FontAwesome';
   src:url('../fonts/fontawesome-webfont.woff');
