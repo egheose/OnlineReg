@@ -42,7 +42,7 @@
                     <div class="side_text">To retrieve and continue a previously saved registration, click the button below</div>
                 </div>
                 <div class="row">
-                    <a runat="server" class="btn btn-success btn-block" style="background-color:#363636;font-size:large" href="#">Retrieve Registration</a>
+                    <a runat="server" class="btn btn-success btn-block" style="background-color:#363636;font-size:large" href="~/Account/Retrieve.aspx">Retrieve Registration</a>
                 </div>
             </div>
             <%--<p>

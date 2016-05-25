@@ -10,38 +10,64 @@
         <h4>Create a new account</h4>
         <hr />
         <asp:ValidationSummary runat="server" CssClass="text-danger" />
-        <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Surname" CssClass="col-md-2 control-label">Surname  
-                <span style="color:red">*</span></asp:Label>
-            <div class="col-md-10">
-                <asp:TextBox runat="server" ID="Surname" CssClass="form-control" TextMode="SingleLine" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Surname"
-                    CssClass="text-danger" ErrorMessage="The surname field is required." />
-                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Akinola or Bamidele-Smith)</em></aside>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-6">
+                    <asp:Label runat="server" AssociatedControlID="Surname" CssClass="col-md-2 control-label">Surname  
+                    <span style="color:red">*</span></asp:Label>
+                    <div class="col-md-10">
+                        <asp:TextBox runat="server" ID="Surname" CssClass="form-control" TextMode="SingleLine" />
+                        <asp:RequiredFieldValidator runat="server" ControlToValidate="Surname"
+                            CssClass="text-danger" ErrorMessage="The surname field is required." />
+                        <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Akinola or Bamidele-Smith)</em></aside>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Help: Surname</h4><hr />
+                    <p>Your surname is your family name or last name. if your surname is a compound name,
+                         e.g. Bamidele-Smith enter it as show with a dash separating each part of the name</p>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Firstname" CssClass="col-md-2 control-label">First  Name 
-                <span style="color:red">*</span>
-            </asp:Label>
-            <div class="col-md-10">
-                <asp:TextBox runat="server" ID="Firstname" TextMode="SingleLine" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Firstname"
-                    CssClass="text-danger" ErrorMessage="The firstname field is required." />
-                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Chukwuemeka, Adekunle or Micheal)</em></aside>
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-6">
+                    <asp:Label runat="server" AssociatedControlID="Firstname" CssClass="col-md-2 control-label">First  Name 
+                    <span style="color:red">*</span>
+                    </asp:Label>
+                    <div class="col-md-10">
+                        <asp:TextBox runat="server" ID="Firstname" TextMode="SingleLine" CssClass="form-control" />
+                        <asp:RequiredFieldValidator runat="server" ControlToValidate="Firstname"
+                            CssClass="text-danger" ErrorMessage="The firstname field is required." />
+                        <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Chukwuemeka, Adekunle or Micheal)</em></aside>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Help: Firstname</h4><hr />
+                    <p>Your first name is the name you were given and the name by which you are known and called.</p>
+                </div>
             </div>
         </div>
-        <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Othernames" CssClass="col-md-2 control-label">Other Name 
-                <span style="color:red">*</span>
-            </asp:Label>
-            <div class="col-md-10">
-                <asp:TextBox runat="server" ID="Othernames" TextMode="SingleLine" CssClass="form-control" />
+        <div class="row">
+            <div class="form-group">
+                <div class="col-md-6">
+                    <asp:Label runat="server" AssociatedControlID="Othernames" CssClass="col-md-2 control-label">Other  Name 
+                    <span style="color:red">*</span>
+                    </asp:Label>
+                    <div class="col-md-10">
+                        <asp:TextBox runat="server" ID="Othernames" TextMode="SingleLine" CssClass="form-control" />
                 <asp:RequiredFieldValidator runat="server" ControlToValidate="Othernames"
                     CssClass="text-danger" ErrorMessage="The other name field is required." />
                 <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Adekola, John or Ibrahim)</em></aside>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <h4>Help: Other Name</h4><hr />
+                    <p>Your other name is the name you were given and the name by which you are known and called.</p>
+                </div>
             </div>
-        </div><hr />
+        </div>
+        <hr />
         <div class="form-group">
             <asp:Label runat="server" AssociatedControlID="Gender" CssClass="col-md-2 control-label">Gender 
                 <span style="color:red">*</span>
@@ -73,36 +99,27 @@
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Othernames" CssClass="col-md-2 control-label">Other Name 
-                <span style="color:red">*</span>
-            </asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Maidenname" CssClass="col-md-2 control-label">Maiden Name </asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="TextBox2" TextMode="SingleLine" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Othernames"
-                    CssClass="text-danger" ErrorMessage="The other name field is required." />
-                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Adekola, John or Ibrahim)</em></aside>
+                <asp:TextBox runat="server" ID="Maidenname" TextMode="SingleLine" CssClass="form-control" />
+                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Akinola or Bamidele-Smith)</em></aside>
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Othernames" CssClass="col-md-2 control-label">Other Name 
-                <span style="color:red">*</span>
-            </asp:Label>
+            <asp:Label runat="server" AssociatedControlID="Previousname" CssClass="col-md-2 control-label">Previous Name</asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="Email" TextMode="SingleLine" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Othernames"
-                    CssClass="text-danger" ErrorMessage="The other name field is required." />
-                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Adekola, John or Ibrahim)</em></aside>
+                <asp:TextBox runat="server" ID="Previousname" TextMode="SingleLine" CssClass="form-control" />
             </div>
         </div>
         <div class="form-group">
-            <asp:Label runat="server" AssociatedControlID="Othernames" CssClass="col-md-2 control-label">Other Name 
+            <asp:Label runat="server" AssociatedControlID="DoB" CssClass="col-md-2 control-label">Date Of Birth 
                 <span style="color:red">*</span>
             </asp:Label>
             <div class="col-md-10">
-                <asp:TextBox runat="server" ID="Password" TextMode="SingleLine" CssClass="form-control" />
-                <asp:RequiredFieldValidator runat="server" ControlToValidate="Othernames"
+                <asp:TextBox runat="server" ID="DoB" TextMode="Date" CssClass="form-control" />
+                <asp:RequiredFieldValidator runat="server" ControlToValidate="DoB"
                     CssClass="text-danger" ErrorMessage="The other name field is required." />
-                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(e.g. Adekola, John or Ibrahim)</em></aside>
+                <aside style="color:#009D47;margin-top:-5px;font-size:20px"><em>(date format is mm/dd/yyyy)</em></aside>
             </div>
         </div>
         <%--<div class="form-group">

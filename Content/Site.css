@@ -95,6 +95,10 @@ input[type="select"] {
     height: 360px;
     border-radius: 12px;
 }
+.row label
+{
+    white-space:nowrap;
+}
 @font-face{
   font-family:'FontAwesome';
   src:url('../fonts/fontawesome-webfont.woff');
