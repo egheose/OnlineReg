@@ -14,6 +14,11 @@
     <webopt:bundlereference runat="server" path="~/Content/css" />
     <%--<link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />--%>
     <link rel="icon" type="image/png" href="http://www.lagosresidents.gov.ng/logo.png">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/css/bootstrap-select.min.css">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.10.0/js/bootstrap-select.min.js"></script>
 
 </head>
 <body>
@@ -48,7 +53,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" runat="server" href="~/">
-                        <img src="Content/Images/lasrralogo.png" width="192" height="59" /></a>
+                        <img src="/Content/Images/lasrralogo.png" width="192" height="59" /></a>
                     
                         <p class="navbar-text-header">Lagos State Residents Online Registration Portal</p>
                 </div>

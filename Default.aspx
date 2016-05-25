@@ -33,8 +33,7 @@
                     <div class="side_text">For adults and children above 16, click the button below</div>
                 </div>
                 <div class="row">
-                    <asp:Button runat="server" CssClass="btn btn-success btn-block" Width="400px" Height="40px" Text="Start Registration"
-                         Font-Size="large" />
+                    <a runat="server" class="btn btn-success btn-block" style="font-size:large"  href="~/Account/Register.aspx">Start Registration</a>
                 </div>
             </div>
             <div class="block_sep">
@@ -43,8 +42,7 @@
                     <div class="side_text">To retrieve and continue a previously saved registration, click the button below</div>
                 </div>
                 <div class="row">
-                    <asp:Button runat="server" CssClass="btn btn-success btn-block" BackColor="#363636" Width="400px" Height="40px" Text="Retrieve Registration"
-                         Font-Size="large" />
+                    <a runat="server" class="btn btn-success btn-block" style="background-color:#363636;font-size:large" href="#">Retrieve Registration</a>
                 </div>
             </div>
             <%--<p>
