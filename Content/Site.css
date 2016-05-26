@@ -137,6 +137,10 @@ input[type="select"] {
     border-radius: 10px;
     border: solid 1px #ccc;
 }
+.box_content_contactus a
+{
+    color:#00411d;
+}
 .box_wrapper .right {
     border: solid 1px #ccc;
     padding: 20px 15px;
