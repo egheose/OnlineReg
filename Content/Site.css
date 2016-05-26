@@ -135,11 +135,12 @@ input[type="select"] {
     padding-top: 20px;
     padding-bottom: 15px;
     border-radius: 10px;
+    color:#007435;
     border: solid 1px #ccc;
 }
 .box_content_contactus a
 {
-    color:#00411d;
+    color:#007435;
 }
 .box_wrapper .right {
     border: solid 1px #ccc;

@@ -10,7 +10,7 @@
         Off Lateef Jakande Road<br />
         Agidingbi Ikeja.<br />
         <abbr title="Phone"><h4><b>Customer Helpdesk:</b></h4></abbr>
-        01-4483440 
+        01-4483440 <br />
         01-4483450
     </address>
 
