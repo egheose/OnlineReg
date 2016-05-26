@@ -99,6 +99,40 @@ input[type="select"] {
 {
     white-space:nowrap;
 }
+.box_wrapper .left .active {
+    border: solid 1px #ccc !important;
+    border-right: none !important;
+    background: #F5F5F5;
+    margin-right: -1px;
+    position: relative;
+    margin-top:-1px;
+}
+.box_wrapper .left div {
+    padding: 10px;
+    font-size: 15px;
+    border-left: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+.box_wrapper div.left:first-child {
+    border-top: 1px solid #eee;
+    border-bottom: 0px solid #eee !important;
+}
+.box_wrapper .left {
+    float: left;
+    width: 200px;
+}
+.box_content_right{
+    background-color: #F5F5F5;
+    padding-top: 40px;
+    margin-left: 200px;
+    border: solid 1px #ccc;
+}
+.box_wrapper .right {
+    border: solid 1px #ccc;
+    padding: 20px 15px;
+    background: #F5F5F5;
+    min-height: 400px;
+}
 @font-face{
   font-family:'FontAwesome';
   src:url('../fonts/fontawesome-webfont.woff');

@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Retrieve.aspx.cs" Inherits="LasrraOnlineReg.Account.Retrieve" %>
+﻿<%@ Page Title="Retrieve Registration" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Retrieve.aspx.cs" Inherits="LasrraOnlineReg.Account.Retrieve" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <p class="text-danger">
         <asp:Literal runat="server" ID="ErrorMessage" />
